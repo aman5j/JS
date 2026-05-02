@@ -15,5 +15,5 @@ function showDiscount()
         var dis=a*d3.value/100
         var na=a-dis
     }
-    result.innerHTML=`Discount:${dis}<br>Net Amount:${a}`
+    result.innerHTML=`Discount:${dis}<br>Net Amount:${na}`
 }
