@@ -6,14 +6,14 @@
         var sn=$("#sname").val()
         var fn=$('#fname').val()
         var t=parseInt($('#p').val())+parseInt($('#c').val())+parseInt($('#m').val())+parseInt($('#h').val())+parseInt($('#e').val())
-        const p=$("#m").val()
+        const p=$("#p").val()
         const c=$("#c").val()
         const m=$("#m").val()
         const h=$("#h").val()
         const e=$("#e").val()
-        var mremark=remarkGrade(p)
-        var premark=remarkGrade(c)
-        var cremark=remarkGrade(m)
+        var mremark=remarkGrade(m)
+        var premark=remarkGrade(p)
+        var cremark=remarkGrade(c)
         var hremark=remarkGrade(h)
         var eremark=remarkGrade(e)
         
@@ -26,7 +26,7 @@
             var gender=$('#female').val()
         }
 
-        var logopic="/images/MPBoardLogo.png"
+        var logopic="images/MPBoardLogo.png"
 
         var htm=`<table width='60%' border='1'>`
         htm+=`<caption>Student MarkSheet</caption>`
