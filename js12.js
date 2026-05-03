@@ -44,5 +44,5 @@ function removeOptions()
 
 function showMap()
 {
-    cityMap.src=`/images/${city.value}.png`
+    cityMap.src=`images/${city.value}.png`
 }
