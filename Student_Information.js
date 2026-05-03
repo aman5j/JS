@@ -17,7 +17,7 @@ function display()
     var crem=rem(c)
     var mrem=rem(m)
     
-    var logopic="/images/MPBoardLogo.png"
+    var logopic="images/MPBoardLogo.png"
     var pre=''
     var bet=''
     if(gen=='Female')

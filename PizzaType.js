@@ -67,16 +67,16 @@ function DiscountOffer(qtyoffer)
         d='1 Pepsi'
         offer+=`<table width='30%' cellpadding='5' cellspacing='0' border='1'>`
         offer+=`<tr><th>Discount: ${d}</th></tr>`
-        offer+=`<tr><th><img src='/images/pepsi.png' width='100'></th></tr></table>`
+        offer+=`<tr><th><img src='images/pepsi.png' width='100'></th></tr></table>`
     }
     else if(qtyoffer>=6 && qtyoffer<=10)
     {
         d='Frech Fries 1 Pepsi & one Choko Lava Cake'
         offer+=`<table width='30%' cellpadding='5' cellspacing='0' border='1'>`
         offer+=`<tr><th>Discount: ${d}</th></tr>`
-        offer+=`<tr><th><img src='/images/pepsi.png' width='100'></th></tr>`
-        offer+=`<tr><th><img src='/images/French Fries.png' width='100'></th></tr>`
-        offer+=`<tr><th><img src='/images/chocolate-lava-crunch-cake.png' width='100'></th></tr></table>`
+        offer+=`<tr><th><img src='images/pepsi.png' width='100'></th></tr>`
+        offer+=`<tr><th><img src='images/French Fries.png' width='100'></th></tr>`
+        offer+=`<tr><th><img src='images/chocolate-lava-crunch-cake.png' width='100'></th></tr></table>`
     }
     return offer
 }

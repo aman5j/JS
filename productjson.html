@@ -38,7 +38,7 @@
         htm+=`<caption>Show All Product Details</caption>`
         htm+=`<tr><th>Code</th><th>Name</th><th>Price</th><th>Offer</th><th>Stock</th><th>manufacture date</th><th>Image</th></tr>`
         filterresult.map((item,index)=>{
-            htm+=`<tr><td>${item.code}</td><td>${item.productname}</td><td>${item.productrate}</td><td>${item.productoffer}</td><td>${item.productstock}</td><td>${item.productdate}</td><th><a href='/images/${item.productimage}.png' ><img src='/images/${item.productimage}.png' width='25'></a></th></tr>`
+            htm+=`<tr><td>${item.code}</td><td>${item.productname}</td><td>${item.productrate}</td><td>${item.productoffer}</td><td>${item.productstock}</td><td>${item.productdate}</td><th><a href='images/${item.productimage}' ><img src='images/${item.productimage}' width='25'></a></th></tr>`
 
         })
         htm+="</table>"
